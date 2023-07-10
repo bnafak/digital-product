@@ -9,7 +9,7 @@ body{
     color: aqua;
 }
 
-nav {
+.menu-container {
     background-color:rgb(187, 186, 186);
     display: flex;
     justify-content: space-around;
@@ -18,15 +18,19 @@ nav {
     align-items: center;
     font-size: 20px;
   }
-nav > ul > li { display: flex;
+  .menu-container > ul > li { display: flex;
     margin-right: 30px;
 }
 
-nav > ul {
+.menu-container > ul {
     display: flex;
 }
 .dgtl{
     color:red;
+}
+.digital-info{
+    width: 50%;
+    margin: 0px, 20px, opx 0px;
 }
 .banner-info{
     color: white;
@@ -34,7 +38,9 @@ nav > ul {
 }
 .banner-container{
     height: 100vh;
-    background-image:url("asset/image/background.jpg");
+    background-image:url("asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 4));
+    background-blend-mode:overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,24 +49,50 @@ nav > ul {
     align-items: center;
     justify-content: space-around;
 }
+.btn{
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+}
+.btn2{
+    background-color: rgb(241, 233, 233);
+    padding: 15px 20px;
+    color:black;
+
+}
 
 .service-container{
-    /* background-image: url("asset/image/footer-bg.png"),
-    linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-    background-blend-mode:overlay; */
-        display: flex;
+    height: 100vh;
+    background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(1, 1, 0, 4), rgba(1, 1, 1, .2));
+    background-blend-mode:overlay;
+    display: flex;
     justify-content: space-around;
-
+   align-items: center;
+   color: white;
+    padding: 50px;;
+    border: 1px solid black;
 }
 .service-left-side{
     width: 50%;
 }
+.service-right-side{
+    justify-content:space-between;
+}
+.btn3{
+    background-color:white;
+    color: black;
+    padding:15px 20px;
+}
 .icon{
     width: 130px;
     height: 100px;
-    padding: 20px;
+    padding: 2px;
     background-color: rgb(239, 222, 222);
     color:black;
     text-align: center;
     border-radius: 5px;
 }
+.all-box{display: flex;
+
+} 
