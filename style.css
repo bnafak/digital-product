@@ -1,98 +1,158 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "Courier New", Courier, monospace;
 }
-*{
-    border: 0;
-    padding:0;
-}
-.digital{
-    color: aqua;
+
+.digital {
+  color: aqua;
 }
 
 .menu-container {
-    background-color:rgb(187, 186, 186);
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding:5px;
-    align-items: center;
-    font-size: 20px;
-  }
-  .menu-container > ul > li { display: flex;
-    margin-right: 30px;
+  background-color: rgb(187, 186, 186);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 5px;
+  align-items: center;
+  font-size: 20px;
+}
+.menu-container > ul > li {
+  display: flex;
+  margin-right: 30px;
 }
 
 .menu-container > ul {
-    display: flex;
+  display: flex;
 }
-.dgtl{
-    color:red;
+.dgtl {
+  color: red;
 }
-.digital-info{
-    width: 50%;
-    margin: 0px, 20px, opx 0px;
+.digital-info {
+  width: 50%;
+  margin: 0px, 20px, opx 0px;
 }
-.banner-info{
-    color: white;
-    width: 40%;
+.banner-info {
+  color: white;
+  width: 40%;
 }
-.banner-container{
-    height: 100vh;
-    background-image:url("asset/image/background.jpg"),
-    linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 4));
-    background-blend-mode:overlay;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.banner-container {
+  height: 100vh;
+  background-image: url("asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 4));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.btn{
-    background-color: red;
-    padding: 15px 20px;
-    color: white;
+.btn {
+  background-color: red;
+  padding: 15px 20px;
+  color: white;
 }
-.btn2{
-    background-color: rgb(241, 233, 233);
-    padding: 15px 20px;
-    color:black;
+.btn2 {
+  background-color: rgb(241, 233, 233);
+  padding: 15px 20px;
+  color: black;
+}
 
+.service-container {
+  height: 100vh;
+  background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 4));
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 50px;
+  border: 1px solid black;
+}
+.service-left-side {
+  width: 50%;
+}
+.service-right-side {
+  justify-content: space-between;
+}
+.btn3 {
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
 }
 
-.service-container{
-    height: 100vh;
-    background-image: url("asset/image/footer-bg.png"),
-    linear-gradient(rgba(1, 1, 0, 4), rgba(1, 1, 1, .2));
-    background-blend-mode:overlay;
-    display: flex;
-    justify-content: space-around;
-   align-items: center;
-   color: white;
-    padding: 50px;;
-    border: 1px solid black;
+/* Icon section  */
+.icon {
+  width: 70px;
+  background-color: rgb(239, 222, 222);
+  color: black;
+  text-align: center;
 }
-.service-left-side{
-    width: 50%;
-}
-.service-right-side{
-    justify-content:space-between;
-}
-.btn3{
-    background-color:white;
-    color: black;
-    padding:15px 20px;
-}
-.icon{
-    width: 130px;
-    height: 100px;
-    padding: 2px;
-    background-color: rgb(239, 222, 222);
-    color:black;
-    text-align: center;
-    border-radius: 5px;
-}
-.all-box{display: flex;
 
-} 
+.author {
+  display: flex;
+  justify-content: space-between;
+}
+.author-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.all-box {
+  display: flex;
+}
+.box {
+  width: 150px;
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Appointment Section  */
+.appointment-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  margin-top: -50;
+}
+.phn-contact {
+  display: flex;
+  gap: 40px;
+}
+.phon-set {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+.phn-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* News and blog section  */
+.blog-news {
+  text-align: center;
+}
+.staff-into-room {
+  width: 260px;
+  height: 230px;
+}
+.department {
+  display: flex;
+  justify-content: space-around;
+}
+.office-staff {
+  /* width: 240;
+    height:500px; */
+  border: 2px solid black;
+  gap: 50px;
+}
